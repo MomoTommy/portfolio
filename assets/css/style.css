@@ -35,6 +35,15 @@ body::before {
   }
 }
 
+@media (max-width:768px ){
+  body::before{
+    background: #040404 url("../img/bg4.jpg") top right no-repeat;
+    position: fixed;
+    background-size: cover;
+    background-position: 75%;
+  }
+}
+
 a {
   color: #18d26e;
   text-decoration: none;
@@ -114,8 +123,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.4);
+  color: black;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -266,7 +275,8 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  background: rgba(255, 255, 255, 0.4);
+  color: black;
   font-size: 28px;
   cursor: pointer;
   display: none;
